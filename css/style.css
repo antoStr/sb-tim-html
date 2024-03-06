@@ -13,7 +13,7 @@ header {
 }
 
 #logo {
-    width: 200px;
+    width: 250px;
 }
 
 .padding {
@@ -36,6 +36,11 @@ main .title {
     font-size: 19px;
 }
 
+
+#highl {
+    background-color: yellow;
+}
+
 .grey {
     font-size: 13px;
     color: grey;
@@ -43,4 +48,13 @@ main .title {
 
 #blue-text {
     color: rgb(102, 224, 255);
+}
+
+.paragraph {
+    margin-top: 20px;
+}
+
+.ib {
+    display: block;
+    font-size: 12px;
 }
