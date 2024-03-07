@@ -37,7 +37,7 @@ main .title {
 }
 
 
-#highl {
+.highl {
     background-color: yellow;
 }
 
@@ -52,9 +52,29 @@ main .title {
 
 .paragraph {
     margin-top: 20px;
+    margin-bottom: 20px;
 }
 
 .ib {
     display: block;
     font-size: 12px;
+}
+
+.table thead {
+    color: #fff;
+    background-color: #00b7ff;
+}
+
+.perc-2 {
+    width: 25%;
+    text-align: left;
+}
+
+.perc-5 {
+    width: 50%;
+    text-align: left;
+}
+
+.lblue {
+    background-color: #a4edff;
 }
