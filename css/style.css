@@ -41,8 +41,11 @@ main .title {
     background-color: yellow;
 }
 
+.title div {
+    font-size: 14px;
+}
+
 .grey {
-    font-size: 13px;
     color: grey;
 }
 
@@ -77,4 +80,34 @@ main .title {
 
 .lblue {
     background-color: #a4edff;
+}
+
+footer h2 {
+    font-size: 30px;
+}
+
+footer div {
+    margin-top: 10px;
+    display: block;
+}
+
+.other {
+    font-weight: 800;
+    color: #fff;
+    font-size: 22px;
+    padding: 10px 20px;
+    width: 300px;
+    height: 200px;
+}
+
+footer #monitor {
+    background-image: url(../img/monitor.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+footer #graph {
+    background-image: url(../img/graph.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
 }
